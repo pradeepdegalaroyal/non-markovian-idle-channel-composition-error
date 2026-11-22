@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "bathmem"
+version = "0.1.0"
+description = "Exact bath-memory simulation of idle noise in gate sequences"
+readme = "README.md"
+requires-python = ">=3.10"
+license = {text = "MIT"}
+authors = [{name = "Degala Chenchupradeep"}]
+dependencies = ["numpy==2.2.6", "scipy==1.17.1", "pandas==2.3.3", "matplotlib==3.11.1"]
+
+[project.optional-dependencies]
+test = ["pytest==9.1.1"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]

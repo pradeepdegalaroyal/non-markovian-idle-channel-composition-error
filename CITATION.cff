@@ -1,0 +1,16 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+title: "When Does Composing an Idle Channel Fail? Non-Markovian Bath Memory and Gate-Sequence Error"
+type: software
+authors:
+  - family-names: Degala
+    given-names: Chenchupradeep
+version: 0.1.0
+date-released: 2026-11-22
+license: MIT
+repository-code: "https://github.com/pradeepdegalaroyal/non-markovian-idle-channel-composition-error"
+abstract: "Exact qubit-plus-damped-bath-mode simulation of random Clifford sequences, testing when composing a characterised idle channel mispredicts gate-sequence error."
+keywords:
+  - non-Markovian dynamics
+  - open quantum systems
+  - noise modelling

@@ -1,0 +1,21 @@
+{
+  "m_ref": 20,
+  "spearman_rel_composed_vs_blp": 0.8112890772774677,
+  "spearman_rel_composed_vs_neg_kappa_tau": 0.9944862656423766,
+  "spearman_abs_composed_vs_blp": -0.3108236523032005,
+  "spearman_abs_composed_vs_kappa_tau": 0.5460828030204525,
+  "max_abs_diff_composed_vs_interval": 4.198030811863873e-16,
+  "max_dev_pseudomode_vs_closed_form": 1.1102230246251565e-15,
+  "critical_kappa_tau_composed": {
+    "level": 0.1,
+    "max_kappa_tau_above": 1.6,
+    "min_kappa_tau_below": 3.2
+  },
+  "critical_kappa_tau_markov_fit": {
+    "level": 0.1,
+    "max_kappa_tau_above": 3.2,
+    "min_kappa_tau_below": 6.4
+  },
+  "runtime_seconds": 59.6,
+  "quick": false
+}
